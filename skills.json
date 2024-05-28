@@ -77,6 +77,15 @@
   {
     "name": "GitHub",
     "icon": "https://img.icons8.com/glyph-neue/48/ffffff/github.png"
+  },
+  {
+    "name": "Flutter",
+    "icon": "https://icones8.fr/icons/set/flutter"
+  },
+  {
+    "name": "Android",
+    "icon": "https://icones8.fr/icons/set/android"
   }
+
 
 ]
