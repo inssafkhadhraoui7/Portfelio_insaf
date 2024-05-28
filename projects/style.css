@@ -199,13 +199,20 @@ header .navbar ul li a:hover{
 .work .box-container {
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap; /* prevents wrapping to new lines */
-  justify-content: space-around; /* evenly spaces the boxes */
-  align-items: flex-start; /* aligns items to the start of the flex container */
+  flex-wrap: wrap; /* Allows wrapping to new lines */
+  justify-content: space-around; /* Evenly spaces the boxes */
+  align-items: flex-start; /* Aligns items to the start of the flex container */
   margin-bottom: 20px;
-  margin: 2rem auto; /* Center the container */
-  max-width: 500px; /* Set maximum width */
-  padding: 0 1rem; /* Add padding for smaller screens */
+  margin: 2rem auto; /* Centers the container */
+  max-width: 1000px; /* Increased maximum width */
+  padding: 0 1rem; /* Adds padding for smaller screens */
+  gap: 20px; /* Adds space between items */
+}
+
+.work .box {
+  flex: 1 1 300px; /* Grows and shrinks with a base width of 300px */
+  width: 450px; /* Ensures the maximum width of each box */
+  box-sizing: border-box; /* Ensures padding and border are included in the width/height */
 }
 
 /* Each project box styling */
