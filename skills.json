@@ -11,6 +11,10 @@
     "icon": "https://img.icons8.com/color/48/000000/firebase.png"
   },
   {
+    "name": "MongoDB",
+    "icon": "https://img.icons8.com/?size=100&id=8rKdRqZFLurS&format=png&color=000000"
+  },
+  {
     "name": "Styled Component",
     "icon": "https://www.styled-components.com/atom.png"
   },
@@ -81,6 +85,14 @@
   {
     "name": "Android",
     "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Android_robot.svg/767px-Android_robot.svg.png"
+  },
+  {
+    "name": "React",
+    "icon": "https://img.icons8.com/?size=100&id=asWSSTBrDlTW&format=png&color=000000"
+  },
+  {
+    "name": "Angular",
+    "icon": "https://img.icons8.com/?size=100&id=21015&format=png&color=000000"
   }
 
 

@@ -59,6 +59,13 @@ function showProjects(projects) {
     </div>`;
   });
   projectsContainer.innerHTML = projectsHTML;
+// Wait until the DOM is fully loaded
+document.addEventListener("DOMContentLoaded", function() {
+  // Hide the loader
+  document.getElementById("loader").style.display = "none";
+  // Show the main content
+  document.getElementById("main-content").style.display = "block";
+});
 
   // vanilla tilt.js
   // VanillaTilt.init(document.querySelectorAll(".tilt"), {
