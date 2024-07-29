@@ -223,6 +223,7 @@ header .navbar ul li a:hover{
   position: relative;
   overflow: hidden;
   height: 50rem;
+  width: auto;
   background: #fff;
   border: none;
   transition: transform 0.3s ease; /* Smooth transition for hover effect */
