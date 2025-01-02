@@ -263,7 +263,7 @@ header .navbar ul li a:hover{
   justify-content: space-between;
   align-items: center;
   height: 4.5rem;
-  width: 100%;
+  width: 50%;
   padding-left: 1rem;
   background: #ffd900;
 }
